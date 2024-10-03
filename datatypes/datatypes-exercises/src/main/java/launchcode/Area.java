@@ -1,3 +1,5 @@
+package launchcode;
+
 import java.util.Scanner;
 
 public class Area {

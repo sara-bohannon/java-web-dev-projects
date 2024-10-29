@@ -1,4 +1,4 @@
-package technology;
+package org.launchcode;
 
 public class Computer {
     private String brand;
@@ -11,14 +11,5 @@ public class Computer {
         this.model = model;
         this.needsCharge = needsCharge;
     }
-
-    public void powerOn() {
-        System.out.println("Powering on the computer.");
-    }
-
-    public void powerOff() {
-        System.out.println("Powering off the computer.");
-    }
-
-    // Getters and other methods can be added here
 }
+

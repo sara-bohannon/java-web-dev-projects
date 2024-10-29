@@ -1,6 +1,6 @@
-package technology;
+package org.launchcode;
 
-public class Laptop {
+public class Laptop extends Computer {
     private boolean hasTouchScreen;
 
     public Laptop(String brand, String model, boolean needsCharge, boolean hasTouchScreen) {

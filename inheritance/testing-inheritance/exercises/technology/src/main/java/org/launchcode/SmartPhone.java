@@ -1,6 +1,6 @@
+package org.launchcode;
 
-
-public class SmartPhone {
+public class SmartPhone extends Computer {
     private boolean has5G;
 
     public SmartPhone(String brand, String model, boolean needsCharge, boolean has5G) {

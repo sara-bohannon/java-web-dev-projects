@@ -1,2 +1,4 @@
 rootProject.name = 'tale-of-two-cats'
+include 'technology'
+include 'technology'
 

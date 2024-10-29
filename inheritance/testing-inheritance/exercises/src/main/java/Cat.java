@@ -49,6 +49,14 @@ public class Cat {
         hungry = true;
     }
 
+    public String purr() {
+        if (hungry) {
+            return "Purrrrrrrr!";
+        } else {
+            return "I'm not hungry!";
+        }
+    }
+
     // Eating makes a cat not hungry
     public void eat() {
 

@@ -1,7 +1,7 @@
 public class Student {
         private String name;
         private int studentId;
-        private int numberOfCredits; // This field must exist
+        private int numberOfCredits;
         private double gpa;
 
         // Constructor

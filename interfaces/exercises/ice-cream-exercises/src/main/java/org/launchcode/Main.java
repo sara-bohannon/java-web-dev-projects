@@ -22,7 +22,7 @@ public class Main {
 
         System.out.println("Cones:");
         for (Cone cone : cones) {
-            System.out.println(cone.getName() + ": $"  + cone.getCost());
+            System.out.println(cone.getName() + ": $kkk"  + cone.getCost());
         }
     }
 }

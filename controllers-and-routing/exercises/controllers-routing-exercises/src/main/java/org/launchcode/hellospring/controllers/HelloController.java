@@ -43,7 +43,7 @@ public class HelloController {
             name = "World";
         }
 
-        return createMessage(name, language);
+        return "<h1 style='color: #4CAF50;'> " + createMessage(name, language) + " </h1>";
 
         // For a bonus mission, students can change this response text to look nicer.
         // This is subjective, but students should be modifying the HTML of the response string.

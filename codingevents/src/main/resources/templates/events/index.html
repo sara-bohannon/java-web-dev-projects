@@ -3,9 +3,13 @@
 <head th:replace="fragments :: head"></head>
 <body>
 
-<h1>Coding Events</h1>
-
 <header th:replace="fragments :: header"></header>
+
+<ul>
+    <th:block th:each="event : ${events}">
+        <li th:text="${event}"></li>
+    </th:block>
+</ul>
 
 </body>
 </html>
